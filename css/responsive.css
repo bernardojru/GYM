@@ -1,0 +1,53 @@
+#search-box {
+  opacity: 1;
+  visibility: visible;
+}
+#nav-container {
+  width: 35vw;
+}
+.nav {
+  transform: translateY(130px) translateX(400px);
+  position: absolute;
+  padding: 20px;
+  height: 30vh;
+  min-width: 200px;
+  background-color: rgb(19, 19, 48);
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease-in-out;
+}
+.nav-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(130px) translateX(0px);
+}
+.container .description {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.section-topic-icon {
+  flex-direction: column;
+  height: auto;
+}
+.section-topic-icon .section-ico-box {
+  padding: 50px;
+  margin: 20px;
+  width: 80vw;
+  height: 30vh;
+}
+.section-atividades-gym {
+  display: flex;
+  flex-direction: column;
+}
+#section-skills .section-atividades-gym {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.section-atividades-gym p {
+  margin-top: 2rem;
+  width: 80vw;
+}
+.section-atividades-gym img {
+  margin-top: 1rem;
+}

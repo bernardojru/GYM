@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #eee;
+    overflow-x: hidden;
+    font-family: "Nunito", sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(6, 6, 29, 0.555);
+}
+.header-color {
+    background-color: black;
+}
+#title {
+    text-decoration: none;
+    margin-left: 4rem;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+#nav-container {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 25vw;
+}
+.nav .menu {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .menu:hover {
+    background-color: rgb(194, 58, 81);
+}
+#nav-container .login {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(194, 58, 81);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+#nav-container .login:hover {
+    background-color: rgb(231, 24, 59);
+}
+#search-box {
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.box {
+    margin: 5px;
+    color: white;
+    width: 1.5rem;
+    height: 1px;
+    border: 1px solid;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/banner.jpg) no-repeat center center / cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container .description {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container .button {
+    margin-top: 2rem;
+    text-decoration: none;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius:40px;
+    background-color: rgb(194, 58, 81);
+    cursor: pointer;
+}
+#section-topic {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-topic-description {
+    font-size: 2rem;
+    margin: 3rem;
+    text-align: center;
+}
+.section-topic-icon {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-topic-icon .section-ico-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+    height: 50vh;
+    margin: 5px;
+    background-color: white;
+}
+.section-ico-box img {
+    opacity: .6;
+    width: 80px;
+    height: 80px;
+}
+.section-ico-box p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+#section-atividades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.section-atividades-description {
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+.section-atividades-gym {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+.section-atividades-gym img{
+    width: 500px;
+    height: 600px;
+}
+.section-atividades-gym p{
+    text-align: center;
+    font-size: 2rem;
+    width: 50vw;
+}
+#section-strength img{
+    width: 640px;
+    height: 425px;
+}
+#section-skills img{
+    width: 640px;
+    height: 425px;
+}
+#section-minset img{
+    width: 640px;
+    height: 425px;
+}
+.footer {
+    margin-top: 4rem;
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.creator {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.creator:hover {
+    text-decoration: underline;
+}
